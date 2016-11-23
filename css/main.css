@@ -59,6 +59,9 @@ section{
 	float: right;
 	font-weight: bold;
 }
+.pausa img{
+	width: 30px;
+}
 
 .menu{
 	position: absolute;
@@ -66,15 +69,26 @@ section{
 	opacity:  0.7;
 	text-align: center;
 	width: 100%;
-	height: 100%;
-	font-size: 24px;
+	height: 81%;
+	font-size: 30px;
 	font-weight: bold;
 	z-index: 2;
-	padding: 20%;
-	display: none;
+	padding-top: 10%;
+	/*display: none;*/
 }
 .menu>ul>li{
 	list-style: none;
+	margin-top: 30px;
+}
+.menu>ul{
+	padding-left: 0;
 }
 
 
+
+/*==========MEDIA QUERIES ==============*/
+@media all and (max-width: 720px) {
+    .nave { 
+    	width: 30%;
+    }
+}
