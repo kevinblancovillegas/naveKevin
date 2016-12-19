@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'haloregular';
+    src: url('../fonts/halo3-webfont.woff2') format('woff2'),
+         url('../fonts/halo3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arcadeclassicregular';
+    src: url('../fonts/arcadeclassic-webfont.woff2') format('woff2'),
+         url('../fonts/arcadeclassic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.a{
+	color: white;
+	width:100%;
+	height:90px;
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+}
+.b{
+	background: url("../img/fondo-ajuego_aplicacion.jpg") repeat center ;
+	color: white;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.c{
+	background-color:#C5C5C5;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:1;
+}
+.d{
+	background: url("../img/fondo-ajuego_aplicacion.jpg") repeat center ;
+	position:fixed;
+	bottom:0px;
+	height:10%;
+	width:100%;
+}
+.d img{
+	width: 100%;
+	height: 100%;
+}
+#nave{
+	text-align:center;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:20%
+}
+#nave img{
+	height:100%;
+}
+#cpanel{}
+#hidem,#showm{
+	float:right;
+}
+ul#menu {
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'arcadeclassicregular';
+    text-align: center;
+}
+ul#menu>li {
+    margin: 22px;
+}
+.instrucciones, .acerca{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: rgba(197, 197, 197, 0.7);
+	color: black;
+	z-index: 2;
+	font-family: 'arcadeclassicregular';
+}
+.text-centro{
+	width: 60%;
+	padding-top: 10%;
+	margin: auto auto;
+}
+.instrucciones > .text-centro > h2, .acerca > .text-centro > h2{
+	font-size: 30px;
+}
+.instrucciones > .text-centro >p, .acerca > .text-centro > p{
+	font-size: 20px;
+	text-align: justify;
+}
